@@ -20,15 +20,7 @@
 
     }
 
-    .clignote {
-        color:green;
-        animation: clignote 2s linear infinite;
-        }
 
-     @keyframes clignote {  
-     50% { opacity: 0; }
-       }
-      
     .C2 {
         margin: auto;
         font-size: 30px;
@@ -36,8 +28,10 @@
         font-weight: bold;
         font-style: italic;
         text-shadow: 0px 0px 10px whitesmoke;
-        text-decoration: blink;
-    }
-
-
-
+            animation: Test 1s infinite;
+        }
+@keyframes Test{
+    0%{opacity: 1;}
+    50%{opacity: 0;}
+    100%{opacity: 1;}
+}
