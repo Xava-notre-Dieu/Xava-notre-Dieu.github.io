@@ -21,19 +21,16 @@
     }
 
 
-    .C2,.C3 {
+    .C2 {
         margin: auto;
         font-size: 30px;
         text-align:center;
         font-weight: bold;
         font-style: italic;
         text-shadow: 0px 0px 10px whitesmoke;
-        }
-
-    .C3 {
         animation: clign 3s infinite;
            
-            }
+    }
 
     @keyframes clign {
         0%{opacity: 1;}
