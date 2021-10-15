@@ -4,7 +4,7 @@
   }
 
   
-  body {
+    body {
         background-color: whitesmoke;
         font-family: 'Roboto', sans-serif;
         background-image: url('BG.jpg');
@@ -34,12 +34,9 @@
         text-shadow: 0px 0px 10px whitesmoke;                   
     }
 
-    .C3{ 
-                
+    .C3{            
         animation: clign 3s infinite;
-
         margin-bottom:auto;
-
         }
 
 
